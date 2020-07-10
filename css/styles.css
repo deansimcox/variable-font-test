@@ -17,14 +17,15 @@ main {
 }
 
 .hover-section {
-  padding: 2em;
-  background: #fff;
+  padding: 1em 2em;
+  margin: 1em 0;
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .change-weight-on-hover {
   font-weight: 900;
   transition: font-weight 1s ease-out;
 }
-.change-weight-on-hover:hover {
+.hover-section:hover .change-weight-on-hover {
   font-weight: 100;
 }
