@@ -16,21 +16,3 @@
 body {
   font-family: 'Deans Custom Font Family', 'Comic Sans MS';
 }
-
-/* 
-  General styles below
-*/
-
-html {
-  font-size: 140%;
-  background-color: floralwhite;
-  color: darkslategrey;
-}
-
-main {
-  display: block;
-  max-width: 800px;
-  width: auto;
-  margin: auto;
-  padding: 0 10px;
-}
