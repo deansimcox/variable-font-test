@@ -52,12 +52,12 @@
 }
 
 body {
-  font-family: 'Roboto Slab', 'comic sans';
+  font-family: 'Roboto Slab', 'Comic Sans MS';
  }
  
 @supports (font-variation-settings: normal) {
   body {
-    font-family: 'Roboto Slab VF', 'comic sans';
+    font-family: 'Roboto Slab VF', 'Comic Sans MS';
   }
 }
 
