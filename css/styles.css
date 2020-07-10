@@ -1,8 +1,8 @@
 
 @font-face {
-  font-family: 'Roboto Slab VF';
-  src: url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf-variations'),
-        url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf');
+  font-family: 'Kyiv*Type Titling';
+  src: url('../fonts/Kyiv*Type-Titling/KyivTypeTitling-VarGX.woff2') format('woff2-variations'),
+        url('../fonts/Kyiv*Type-Titling/KyivTypeTitling-VarGX.woff2') format('woff2');
 }
 
 /* roboto-slab-100 - latin */
@@ -107,12 +107,12 @@
 
 
 body {
-  font-family: 'Roboto Slab', 'Comic Sans MS';
+  font-family: 'Roboto Slab', 'Times New Roman';
  }
  
 @supports (font-variation-settings: normal) {
   body {
-    font-family: 'Roboto Slab VF', 'Comic Sans MS';
+    font-family: 'Kyiv*Type Titling', 'Comic Sans MS';
   }
 }
 
