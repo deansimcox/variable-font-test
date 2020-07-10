@@ -1,55 +1,53 @@
-@font-face {
+/* @font-face {
   font-family: 'Roboto Slab VF';
-  src: url('/fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf-variations'),
-        /* will be the standard and works in Safari now */
-        url('/fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf');
-        /* for the other supporting browsers */
+  src: url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf-variations'),
+        url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf');
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-Thin.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-Thin.ttf') format('ttf');
   font-weight: 100;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-ExtraLight.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-ExtraLight.ttf') format('ttf');
   font-weight: 200;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-Light.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-Light.ttf') format('ttf');
   font-weight: 300;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-Regular.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-Regular.ttf') format('ttf');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-Medium.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-Medium.ttf') format('ttf');
   font-weight: 500;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-SemiBold.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-SemiBold.ttf') format('ttf');
   font-weight: 600;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-Bold.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-Bold.ttf') format('ttf');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-ExtraBold.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-ExtraBold.ttf') format('ttf');
   font-weight: 800;
 }
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/fonts/roboto-slab/static/RobotoSlab-Black.ttf') format('ttf');
+  src: url('./fonts/roboto-slab/static/RobotoSlab-Black.ttf') format('ttf');
   font-weight: 900;
-}
+} */
 
 body {
   font-family: 'Roboto Slab', 'Comic Sans MS';
