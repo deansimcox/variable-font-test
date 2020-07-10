@@ -1,0 +1,36 @@
+ @font-face {
+  font-family: 'Deans Custom Font Family';
+  font-style: normal;
+  font-display: block;
+  src: local(''),
+    url('../fonts/Kyiv*Type-Titling/KyivTypeTitling-VarGX.woff2') format('woff2-variations'),
+    url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-regular.woff') format('woff');
+  font-weight: 1 999;
+}
+
+/* 
+  Add variable font to page
+*/
+
+body {
+  font-family: 'Deans Custom Font Family', 'Comic Sans MS';
+}
+
+/* 
+  General styles below
+*/
+
+html {
+  font-size: 140%;
+  background-color: floralwhite;
+  color: darkslategrey;
+}
+
+main {
+  display: block;
+  max-width: 800px;
+  width: auto;
+  margin: auto;
+  padding: 0 10px;
+}
