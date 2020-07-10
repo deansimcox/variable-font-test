@@ -20,7 +20,9 @@ main {
   padding: 1em 2em;
   margin: 1em 0;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.32);
+  border: 1px solid;
+  cursor: ne-resize;
 }
 .change-weight-on-hover {
   font-weight: 900;
