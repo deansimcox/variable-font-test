@@ -1,53 +1,110 @@
-/* @font-face {
+
+@font-face {
   font-family: 'Roboto Slab VF';
   src: url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf-variations'),
         url('./fonts/roboto-slab/RobotoSlab-VariableFont_wght.ttf') format('ttf');
 }
+
+/* roboto-slab-100 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-Thin.ttf') format('ttf');
+  font-style: normal;
   font-weight: 100;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-200 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-ExtraLight.ttf') format('ttf');
+  font-style: normal;
   font-weight: 200;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-300 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-Light.ttf') format('ttf');
+  font-style: normal;
   font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-regular - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-Regular.ttf') format('ttf');
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-500 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-Medium.ttf') format('ttf');
+  font-style: normal;
   font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-600 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-SemiBold.ttf') format('ttf');
+  font-style: normal;
   font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-700 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-Bold.ttf') format('ttf');
+  font-style: normal;
   font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-800 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-ExtraBold.ttf') format('ttf');
+  font-style: normal;
   font-weight: 800;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* roboto-slab-900 - latin */
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('./fonts/roboto-slab/static/RobotoSlab-Black.ttf') format('ttf');
+  font-style: normal;
   font-weight: 900;
-} */
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v12-latin/roboto-slab-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 
 body {
   font-family: 'Roboto Slab', 'Comic Sans MS';
